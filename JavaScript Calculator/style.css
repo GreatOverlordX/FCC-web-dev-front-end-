@@ -1,0 +1,90 @@
+* {
+  border-radius: 10%;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "dis dis dis dis"
+  "AC C div times"
+  "seven eight nine minus"
+  "four five six plus"
+  "one two three equal"
+  "zero zero dot equal";
+}
+
+
+.padButton:hover{
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.padButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #4947477c;
+  color: #000000;
+  border: 2px solid #000000;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+
+.clear-btn {
+  background-color: rgb(243, 101, 101);
+}
+
+.num-grid {
+  background-color: #72d4f1;
+}
+
+.dis {
+  grid-area: dis;
+  background-color: #00000098;
+  text-align: right;
+  font-size: 20px;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.equal {
+  grid-area: equal;
+  padding: 30px;
+}
+
+.equal-btn {
+  background-color: rgba(3, 60, 247, 0.527);
+  
+}
+
+.total {
+  padding: 5px 25px; 
+  color: rgb(255, 255, 2);
+}
+
+
+
+.dis input{
+  width: 69ch;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  background-color: black;
+  border-color: #adadad;
+  border-width: 0.2cm;
+}
+
