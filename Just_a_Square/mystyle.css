@@ -1,0 +1,8 @@
+
+.simple-square {
+  transition: transform 2s;
+}
+
+.simple-square:hover {
+  transform: rotate(360deg);
+}
